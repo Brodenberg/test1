@@ -4,128 +4,114 @@
 	<title>Landing Page</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/reset.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700" rel="stylesheet">
 </head>
 <body>
 	<header>
-     <div id="container-menu">
-        <div class="wrap">
+     <div class="container-menu">
+       
 		<div class="lending">
-		<h1>lorem ipsum</h1>
+		<p>lorem ipsum</p>
 		</div> <!--lending-->
-
-        <div class="menu">
-        <input type="checkbox" id="check-menu">
-        <label for="check-menu"></label>
-        <div class="burger-line first"></div>
-        <div class="burger-line second"></div>
-        <div class="burger-line third"></div>
-        <div class="burger-line fourth"></div>
-		<ul class="nav">
-			<a href="#"><li>Home</li></a>
-			<a href="#"><li>Featurs</li></a>
-			<a href="#"><li>About</li></a>
+       
+        <input class="nav-burger__checkbox" type="checkbox" id="burger">
+        <label class="nav-burger" for="burger"></label>
+        
+        <nav class="nav">       
+		<ul>
+			<li class="nav-btn btn1"><a href="#">Home</a></li>
+			<li class="nav-btn"><a href="#">Features</a></li>
+			<li class="nav-btn"><a href="#">About</a></li>
 		</ul>
-		</div><!--menu-->
-        </div>
+        </nav>
+		
+        
 		</div><!--container-menu-->
 	</header>
 	
-	<!--main-->
-    <div id="container-main">
-    	<div class="into">
-    	<h1>lorem ipsum</h1>
-    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-    	</div><!--into-->
+	<main>
 
-    	<div class="btm">
-    		<a href="#">Learn More</a>
-    	</div><!--btm-->
-
-    	<div class="img">
-    		<img src="./images/Asset10.png" class="asset10">
-    	</div><!--img-->
+    	<h1 class="title">lorem ipsum</h1>
+    	<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+        <form>
+    	<input type="submit" name="button" value="Learn More" class="button-learn">
+        </form>
+        <div>
+    		<img src="./images/Asset1.png" class="asset1">
+        </div>
+        
 
     	<div class="content">
-    		<div class="block1">
-    		<h1>lorem ipsum</h1>
-    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-    		<img src="./images/Asset2.png" class="asset2" class="asset2">
-    		</div><!--block1-->
 
-    		<div id="blocks">
-    		<div class="block1-1">
-    			<img src="./images/Asset3.png"																																															>
-    			<h1>lorem ipsum</h1>
-    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-    		</div><!--block1-1-->
+    		<p class="title-content">lorem ipsum</p>
+    		<p class="sub-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
 
-    		<div class="block1-2">
-    			<img src="./images/Asset4.png">
-    			<h1>lorem ipsum</h1>
-    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-    		</div><!--block1-2-->
-
-    		<div class="block1-3">
-    			<img src="./images/Asset5.png">
-    			<h1>lorem ipsum</h1>
-    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-    	</div><!--block1-3-->
-    		</div><!--blocks-->
+    		<img src="./images/Asset2.png" class="asset2">
             
-            <div class="into2">
-    		<h1>lorem ipsum</h1>
-    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-            </div><!--into2-->
+    <ul class="three-mini-block">
 
-            <div class="container-block2">
+    	<li class="mini-block">    
+    		<img src="./images/Asset3.png" class="img-one-mini-block">		
+    		<p class="mini-block-title">lorem ipsum</h1>
+    		<p class="mini-block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+        </li>
 
-                <div class="block2">
-            	<h1 class="name">lorem ipsum</h1>
+        <li class="mini-block">
+    		<img src="./images/Asset4.png" class="img-two-mini-block">
+    		<p class="mini-block-title">lorem ipsum</h1>
+    		<p class="mini-block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+        </li>
+
+    	<li class="mini-block mini-three">
+    		<img src="./images/Asset5.png" class="img-three-mini-block">
+    		<p class="mini-block-title">lorem ipsum</h1>
+    		<p class="mini-block-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+        </li>
+
+    </ul>
+
+    	<p class="title-content">lorem ipsum</p>
+    	<p class="sub-content bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+           
+    <ul>
+        <li class="container-img-right">
+            <img src="./images/Asset6.png" class="image-right">
+            <p class="name">lorem ipsum</p>
     		<p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-                 </div><!--block2-->
-
-            <img src="./images/Asset6.png" class="image2">
-            </div><!--container-block2-->
+        </li>
             
-            <div class="container-block3">
-            	<img src="./images/Asset7.png" class="image2">
-            	<div class="block3">
-            	<h1 class="name">lorem ipsum</h1>
+        <li class="container-img-left">
+            <img src="./images/Asset7.png" class="image-left">
+            <p class="name">lorem ipsum</p>
+    		<p class="about mobile-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+        </li>
+
+        <li class="container-img-right">
+            <img src="./images/Asset8.png" class="image-right"> 
+        	<p class="name">lorem ipsum</p>
     		<p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-    		</div><!--block3-->
-            </div><!--container-block3-->  
+        </li>
 
-            <div class="container-block2">
-
-                <div class="block2">
-            	<h1 class="name">lorem ipsum</h1>
+        <li class="container-img-left">
+            <img src="./images/Asset9.png" class="image-left">
+            <p class="name">lorem ipsum</p>
     		<p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-                 </div><!--block2-->
+        </li>
 
-            <img src="./images/Asset8.png" class="image2">
-            </div><!--container-block2--> 
+    </ul>
+    </main>
 
-            <div class="container-block3">
-            	<img src="./images/Asset9.png" class="image2">
-            	<div class="block3">
-            	<h1 class="name">lorem ipsum</h1>
-    		<p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-    		</div><!--block3-->
-            </div><!--container-block3-->    
-    	</div><!--content-->
-    </div><!--container-main-->
-
-   <footer id="container-footer">
-   	<h1>lorem ipsum</h1>
-   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+<footer class="container-footer">
+   	<p class="footer-title">lorem ipsum</h1>
+   	<p class="footer-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
    	<form>
-   		<input type="email" name="email" placeholder="Email">
-   		<input type="submit" name="submit" value="Subscribe">
+   		<input type="email" name="email" placeholder="Email" class="email">
+   		<input type="submit" name="submit" value="Subscribe" class="submit-batton">
    	</form>
    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </body>
 </html>
